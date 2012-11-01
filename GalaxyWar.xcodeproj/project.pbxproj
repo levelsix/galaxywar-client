@@ -1,0 +1,1530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF352DB0163F7CDC00630592 /* fps_images-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = CF352DAF163F7CDB00630592 /* fps_images-ipadhd.png */; };
+		CF352DB5163F879700630592 /* GWMap.m in Sources */ = {isa = PBXBuildFile; fileRef = CF352DB4163F879700630592 /* GWMap.m */; };
+		CF38EA14163F894F00CDDAA6 /* magic_bgr_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF38EA12163F894F00CDDAA6 /* magic_bgr_left@2x.png */; };
+		CF38EA15163F894F00CDDAA6 /* magic_bgr_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF38EA13163F894F00CDDAA6 /* magic_bgr_right@2x.png */; };
+		CF38EA1D163FDBD000CDDAA6 /* GWBuilding.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38EA1C163FDBD000CDDAA6 /* GWBuilding.m */; };
+		CF38EA20163FE4CB00CDDAA6 /* GWMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38EA1F163FE4CB00CDDAA6 /* GWMapController.m */; };
+		CF38EA23163FED4600CDDAA6 /* GWBuildingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38EA22163FED4500CDDAA6 /* GWBuildingController.m */; };
+		CF38EA26163FF00800CDDAA6 /* GWMapLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38EA25163FF00800CDDAA6 /* GWMapLayer.m */; };
+		CF38EA2916408A1900CDDAA6 /* GWBuildingSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38EA2816408A1900CDDAA6 /* GWBuildingSprite.m */; };
+		CF38EA2C1640943C00CDDAA6 /* Slaughterhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = CF38EA2A1640943C00CDDAA6 /* Slaughterhouse.png */; };
+		CF38EA2D1640943C00CDDAA6 /* Slaughterhouse@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF38EA2B1640943C00CDDAA6 /* Slaughterhouse@2x.png */; };
+		CF38EA311640AA1900CDDAA6 /* GWMoveBuildingController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38EA301640AA1800CDDAA6 /* GWMoveBuildingController.m */; };
+		CF38EA361641040100CDDAA6 /* GWHomeMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF38EA351641040000CDDAA6 /* GWHomeMapController.m */; };
+		CF7AC7A4163A8428004B25B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7AC7A3163A8428004B25B9 /* UIKit.framework */; };
+		CF7AC7A6163A8428004B25B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7AC7A5163A8428004B25B9 /* Foundation.framework */; };
+		CF7AC7A8163A8428004B25B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7AC7A7163A8428004B25B9 /* CoreGraphics.framework */; };
+		CF7AC7EA163A8E31004B25B9 /* GWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7AC7E9163A8E31004B25B9 /* GWAppDelegate.m */; };
+		CF7AC7F2163A9871004B25B9 /* GWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7AC7F1163A9871004B25B9 /* GWRootViewController.m */; };
+		CF7AC7F6163A9ACB004B25B9 /* magic_bgr_left.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7AC7F4163A9ACB004B25B9 /* magic_bgr_left.png */; };
+		CF7AC7F7163A9ACB004B25B9 /* magic_bgr_right.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7AC7F5163A9ACB004B25B9 /* magic_bgr_right.png */; };
+		CF7AC8F8163AA11A004B25B9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7AC8F0163AA11A004B25B9 /* Default-568h@2x.png */; };
+		CF7AC8F9163AA11A004B25B9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7AC8F1163AA11A004B25B9 /* Default.png */; };
+		CF7AC8FA163AA11A004B25B9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF7AC8F2163AA11A004B25B9 /* Default@2x.png */; };
+		CF7AC8FB163AA11A004B25B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7AC8F3163AA11A004B25B9 /* InfoPlist.strings */; };
+		CF7AC8FD163AA11A004B25B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7AC8F7163AA11A004B25B9 /* main.m */; };
+		CF7ACCD4163AACBF004B25B9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7ACCD3163AACBF004B25B9 /* QuartzCore.framework */; };
+		CF7ACCD6163AACC5004B25B9 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7ACCD5163AACC5004B25B9 /* OpenGLES.framework */; };
+		CF7ACCD8163AACCC004B25B9 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7ACCD7163AACCC004B25B9 /* OpenAL.framework */; };
+		CF7ACCDA163AACD2004B25B9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7ACCD9163AACD2004B25B9 /* AudioToolbox.framework */; };
+		CF7ACCDC163AACD8004B25B9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7ACCDB163AACD8004B25B9 /* AVFoundation.framework */; };
+		CF8AFCF9163DD56F0073D91A /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8AFC84163DD54E0073D91A /* libcocos2d.a */; };
+		CF8AFCFA163DD83F0073D91A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7ACCDF163AAF6F004B25B9 /* libz.dylib */; };
+		CF8AFD06163DDA0E0073D91A /* CCGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8AFCFD163DDA0E0073D91A /* CCGestureRecognizer.m */; };
+		CF8AFD12163DE0680073D91A /* fps_images-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8AFD0C163DE0650073D91A /* fps_images-hd.plist */; };
+		CF8AFD13163DE0680073D91A /* fps_images-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8AFD0D163DE0660073D91A /* fps_images-hd.png */; };
+		CF8AFD16163DE0680073D91A /* fps_images.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF8AFD10163DE0670073D91A /* fps_images.plist */; };
+		CF8AFD17163DE0680073D91A /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8AFD11163DE0680073D91A /* fps_images.png */; };
+		CF9AB84A164137C800F18048 /* metatiles.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9AB848164137C800F18048 /* metatiles.png */; };
+		CF9AB84B164137C800F18048 /* metatiles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9AB849164137C800F18048 /* metatiles@2x.png */; };
+		CF9AB8501641427800F18048 /* expanddownarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9AB84C1641427800F18048 /* expanddownarrow.png */; };
+		CF9AB8511641427800F18048 /* expanddownarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9AB84D1641427800F18048 /* expanddownarrow@2x.png */; };
+		CF9AB8521641427800F18048 /* expanduparrow.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9AB84E1641427800F18048 /* expanduparrow.png */; };
+		CF9AB8531641427800F18048 /* expanduparrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CF9AB84F1641427800F18048 /* expanduparrow@2x.png */; };
+		CF9AB85B164198A000F18048 /* GWResourceGatherer.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9AB85A164198A000F18048 /* GWResourceGatherer.m */; };
+		CF9AB85E164199C300F18048 /* GWResourceStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9AB85D164199C200F18048 /* GWResourceStorage.m */; };
+		CF9AB864164201E600F18048 /* GWCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9AB863164201E500F18048 /* GWCharacter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF8AFC7D163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 509807081175041800EA7266;
+			remoteInfo = "build all tests";
+		};
+		CF8AFC7F163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504225700FC0B39C00B992F7;
+			remoteInfo = box2d;
+		};
+		CF8AFC81163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50B2C4D10E100AEA00AE9530;
+			remoteInfo = Chipmunk;
+		};
+		CF8AFC83163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5018F24D0DFDEAC400C013A5;
+			remoteInfo = cocos2d;
+		};
+		CF8AFC85163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 502C65EE0DFEF3DD00E4107D;
+			remoteInfo = "cocos2d-documentation";
+		};
+		CF8AFC87163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50CB2FCA1004C8B100B7A750;
+			remoteInfo = CocosDenshion;
+		};
+		CF8AFC89163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A02900ED15B5FA9E00D64F82;
+			remoteInfo = CocosBuilderReader;
+		};
+		CF8AFC8B163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A031B73915D9BD0800E1986C;
+			remoteInfo = jsbindings;
+		};
+		CF8AFC8D163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A04A1FEB13B826B300ABAFB7;
+			remoteInfo = kazmath;
+		};
+		CF8AFC8F163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 503164CD10277665003ACFE7;
+			remoteInfo = libpng;
+		};
+		CF8AFC91163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504CC32F1035BDE90096894C;
+			remoteInfo = ActionManagerTest;
+		};
+		CF8AFC93163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50C93AAD0E0BF6E000517B01;
+			remoteInfo = ActionsTest;
+		};
+		CF8AFC95163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05CA7B0410ED674700F12774;
+			remoteInfo = ActionsWithBlocksSample;
+		};
+		CF8AFC97163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504828800F45AED700A30CEF;
+			remoteInfo = AttachTest;
+		};
+		CF8AFC99163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5042262E0FC0B5D500B992F7;
+			remoteInfo = Box2dTest;
+		};
+		CF8AFC9B163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50010ED2103B3DB80059EC2E;
+			remoteInfo = Box2dTestBed;
+		};
+		CF8AFC9D163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50B2C5E80E100EF000AE9530;
+			remoteInfo = ChipmunkTest;
+		};
+		CF8AFC9F163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 506C77E20E01520900B48100;
+			remoteInfo = ClickAndMoveTest;
+		};
+		CF8AFCA1163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 505224F911B3D4700061670F;
+			remoteInfo = "CocosDenshion - Tom The Turret";
+		};
+		CF8AFCA3163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 505228BA11B3DBB90061670F;
+			remoteInfo = "CocosDenshion - Drum Pad";
+		};
+		CF8AFCA5163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5052293C11B3DCD80061670F;
+			remoteInfo = "CocosDenshion - Fade To Grey";
+		};
+		CF8AFCA7163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5052296E11B3DCE90061670F;
+			remoteInfo = "CocosDenshion - FancyRat Metering";
+		};
+		CF8AFCA9163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A01AB91A149709E300C93DB6;
+			remoteInfo = DirectorTest;
+		};
+		CF8AFCAB163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 501945740F964C620059CE7C;
+			remoteInfo = drawPrimitivesTest;
+		};
+		CF8AFCAD163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504E17DC11C4C7E100E19835;
+			remoteInfo = EAGLViewTest;
+		};
+		CF8AFCAF163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 505B63A30F2F4210001B4104;
+			remoteInfo = ActionsEaseTest;
+		};
+		CF8AFCB1163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50A24E440F377FA1007CAEB0;
+			remoteInfo = EffectsTest;
+		};
+		CF8AFCB3163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50D56FD20F3FABEC007CD6B9;
+			remoteInfo = EffectsAdvancedTest;
+		};
+		CF8AFCB5163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0F8418D151D3B3000EBBFCB;
+			remoteInfo = FileUtilsTest;
+		};
+		CF8AFCB7163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DAABAA9A1059A42E00794EB3;
+			remoteInfo = FontTest;
+		};
+		CF8AFCB9163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50C7D4950E5C2ED80035ACA2;
+			remoteInfo = IntervalTest;
+		};
+		CF8AFCBB163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A001946A15C379F400F3D80E;
+			remoteInfo = "JS Moon Warriors";
+		};
+		CF8AFCBD163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0D6C037159B6A25008EED97;
+			remoteInfo = "JS Tests";
+		};
+		CF8AFCBF163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0E5F8AD15C1AE5F00D44C32;
+			remoteInfo = "JS Watermelon";
+		};
+		CF8AFCC1163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 506882110E95761200F943E5;
+			remoteInfo = LabelTest;
+		};
+		CF8AFCC3163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504799B1100F6A4200D1C71A;
+			remoteInfo = LayerTest;
+		};
+		CF8AFCC5163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 506C7A090E01C73A00B48100;
+			remoteInfo = MenuTest;
+		};
+		CF8AFCC7163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50A783C40F3AFCE500104C45;
+			remoteInfo = MotionStreakTest;
+		};
+		CF8AFCC9163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A009431115180C730029A5C6;
+			remoteInfo = MultithreadTest;
+		};
+		CF8AFCCB163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 506144080E589A2E003CCDB7;
+			remoteInfo = NodeTest;
+		};
+		CF8AFCCD163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50C195600EE4B57E00829067;
+			remoteInfo = ParallaxTest;
+		};
+		CF8AFCCF163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50DB1BCA0E1C1E5900A89DFF;
+			remoteInfo = ParticleTest;
+		};
+		CF8AFCD1163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 501504ED11330E1700A9CA65;
+			remoteInfo = ActionsProgressTest;
+		};
+		CF8AFCD3163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 495E73F7104B74E20012BB52;
+			remoteInfo = RenderTextureTest;
+		};
+		CF8AFCD5163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 502C66180DFEFCCA00E4107D;
+			remoteInfo = RotateWorldTest;
+		};
+		CF8AFCD7163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 506C800E0E041C9300B48100;
+			remoteInfo = SceneTest;
+		};
+		CF8AFCD9163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 508CA7DA1193270F003AC397;
+			remoteInfo = SchedulerTest;
+		};
+		CF8AFCDB163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E03A4F691355041F00D4B515;
+			remoteInfo = ShaderTest;
+		};
+		CF8AFCDD163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 501C7C910F91EFFF0024A296;
+			remoteInfo = SpriteTest;
+		};
+		CF8AFCDF163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 505B62D60F2E6A0F001B4104;
+			remoteInfo = Texture2dTest;
+		};
+		CF8AFCE1163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 503F5CBE101FE930002A37E5;
+			remoteInfo = TileMapTest;
+		};
+		CF8AFCE3163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5012DD3B0FE2994300D6DDD1;
+			remoteInfo = TouchesTest;
+		};
+		CF8AFCE5163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50C938E00E0A9DBB00517B01;
+			remoteInfo = TransitionsTest;
+		};
+		CF8AFCE7163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E0C5588611FE48E600B9E4CB;
+			remoteInfo = ZwoptexTest;
+		};
+		CF8AFCE9163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507FF8F2116D16F600B6FAB2;
+			remoteInfo = Bug350;
+		};
+		CF8AFCEB163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50CB34DD100765EF00B7A750;
+			remoteInfo = Bug422;
+		};
+		CF8AFCED163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E037DA4C1281C7F0003D39D7;
+			remoteInfo = Bug458;
+		};
+		CF8AFCEF163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E02BC2CD1270E489006E46A2;
+			remoteInfo = Bug624;
+		};
+		CF8AFCF1163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 50CBA48711CBD6FB007B009D;
+			remoteInfo = Bug886;
+		};
+		CF8AFCF3163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 507C0F0B11D609290075E747;
+			remoteInfo = Bug899;
+		};
+		CF8AFCF5163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 502BF56911E39CC30030C477;
+			remoteInfo = Bug914;
+		};
+		CF8AFCF7163DD54E0073D91A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E0EA56A5134B9CA800F212C8;
+			remoteInfo = Bug1159;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF352DAF163F7CDB00630592 /* fps_images-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-ipadhd.png"; path = "libs/cocos2d/Resources/Fonts/fps_images-ipadhd.png"; sourceTree = SOURCE_ROOT; };
+		CF352DB3163F879700630592 /* GWMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMap.h; sourceTree = "<group>"; };
+		CF352DB4163F879700630592 /* GWMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWMap.m; sourceTree = "<group>"; };
+		CF38EA12163F894F00CDDAA6 /* magic_bgr_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic_bgr_left@2x.png"; sourceTree = "<group>"; };
+		CF38EA13163F894F00CDDAA6 /* magic_bgr_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magic_bgr_right@2x.png"; sourceTree = "<group>"; };
+		CF38EA1B163FDBD000CDDAA6 /* GWBuilding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWBuilding.h; sourceTree = "<group>"; };
+		CF38EA1C163FDBD000CDDAA6 /* GWBuilding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWBuilding.m; sourceTree = "<group>"; };
+		CF38EA1E163FE4CB00CDDAA6 /* GWMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMapController.h; sourceTree = "<group>"; };
+		CF38EA1F163FE4CB00CDDAA6 /* GWMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWMapController.m; sourceTree = "<group>"; };
+		CF38EA21163FED4500CDDAA6 /* GWBuildingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWBuildingController.h; sourceTree = "<group>"; };
+		CF38EA22163FED4500CDDAA6 /* GWBuildingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWBuildingController.m; sourceTree = "<group>"; };
+		CF38EA24163FF00800CDDAA6 /* GWMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMapLayer.h; sourceTree = "<group>"; };
+		CF38EA25163FF00800CDDAA6 /* GWMapLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWMapLayer.m; sourceTree = "<group>"; };
+		CF38EA2716408A1900CDDAA6 /* GWBuildingSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWBuildingSprite.h; sourceTree = "<group>"; };
+		CF38EA2816408A1900CDDAA6 /* GWBuildingSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWBuildingSprite.m; sourceTree = "<group>"; };
+		CF38EA2A1640943C00CDDAA6 /* Slaughterhouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Slaughterhouse.png; sourceTree = "<group>"; };
+		CF38EA2B1640943C00CDDAA6 /* Slaughterhouse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Slaughterhouse@2x.png"; sourceTree = "<group>"; };
+		CF38EA2E1640957300CDDAA6 /* GWMapSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWMapSource.h; sourceTree = "<group>"; };
+		CF38EA2F1640AA1800CDDAA6 /* GWMoveBuildingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMoveBuildingController.h; sourceTree = "<group>"; };
+		CF38EA301640AA1800CDDAA6 /* GWMoveBuildingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWMoveBuildingController.m; sourceTree = "<group>"; };
+		CF38EA321640F84700CDDAA6 /* GWMapObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWMapObject.h; sourceTree = "<group>"; };
+		CF38EA33164100BC00CDDAA6 /* GWMapObjectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWMapObjectController.h; sourceTree = "<group>"; };
+		CF38EA34164103FF00CDDAA6 /* GWHomeMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWHomeMapController.h; sourceTree = "<group>"; };
+		CF38EA351641040000CDDAA6 /* GWHomeMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWHomeMapController.m; sourceTree = "<group>"; };
+		CF7AC79F163A8428004B25B9 /* GalaxyWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7AC7A3163A8428004B25B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF7AC7A5163A8428004B25B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF7AC7A7163A8428004B25B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF7AC7E8163A8E31004B25B9 /* GWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWAppDelegate.h; sourceTree = "<group>"; };
+		CF7AC7E9163A8E31004B25B9 /* GWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWAppDelegate.m; sourceTree = "<group>"; };
+		CF7AC7F0163A9870004B25B9 /* GWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWRootViewController.h; sourceTree = "<group>"; };
+		CF7AC7F1163A9871004B25B9 /* GWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWRootViewController.m; sourceTree = "<group>"; };
+		CF7AC7F4163A9ACB004B25B9 /* magic_bgr_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_bgr_left.png; sourceTree = "<group>"; };
+		CF7AC7F5163A9ACB004B25B9 /* magic_bgr_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic_bgr_right.png; sourceTree = "<group>"; };
+		CF7AC8F0163AA11A004B25B9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "GalaxyWar/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		CF7AC8F1163AA11A004B25B9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = GalaxyWar/Default.png; sourceTree = SOURCE_ROOT; };
+		CF7AC8F2163AA11A004B25B9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "GalaxyWar/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		CF7AC8F4163AA11A004B25B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = GalaxyWar/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		CF7AC8F5163AA11A004B25B9 /* GalaxyWar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GalaxyWar-Info.plist"; path = "GalaxyWar/GalaxyWar-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CF7AC8F6163AA11A004B25B9 /* GalaxyWar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GalaxyWar-Prefix.pch"; path = "GalaxyWar/GalaxyWar-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		CF7AC8F7163AA11A004B25B9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GalaxyWar/main.m; sourceTree = SOURCE_ROOT; };
+		CF7ACCD3163AACBF004B25B9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF7ACCD5163AACC5004B25B9 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		CF7ACCD7163AACCC004B25B9 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		CF7ACCD9163AACD2004B25B9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF7ACCDB163AACD8004B25B9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF7ACCDD163AACE4004B25B9 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		CF7ACCDF163AAF6F004B25B9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cocos2d-ios.xcodeproj"; path = "cocos2d/cocos2d-ios.xcodeproj"; sourceTree = "<group>"; };
+		CF8AFCFC163DDA0E0073D91A /* CCGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGestureRecognizer.h; sourceTree = "<group>"; };
+		CF8AFCFD163DDA0E0073D91A /* CCGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGestureRecognizer.m; sourceTree = "<group>"; };
+		CF8AFD0C163DE0650073D91A /* fps_images-hd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "fps_images-hd.plist"; path = "../libs/cocos2d/Resources/Fonts/fps_images-hd.plist"; sourceTree = "<group>"; };
+		CF8AFD0D163DE0660073D91A /* fps_images-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fps_images-hd.png"; path = "../libs/cocos2d/Resources/Fonts/fps_images-hd.png"; sourceTree = "<group>"; };
+		CF8AFD10163DE0670073D91A /* fps_images.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fps_images.plist; path = ../libs/cocos2d/Resources/Fonts/fps_images.plist; sourceTree = "<group>"; };
+		CF8AFD11163DE0680073D91A /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = ../libs/cocos2d/Resources/Fonts/fps_images.png; sourceTree = "<group>"; };
+		CF9AB848164137C800F18048 /* metatiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metatiles.png; sourceTree = "<group>"; };
+		CF9AB849164137C800F18048 /* metatiles@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "metatiles@2x.png"; sourceTree = "<group>"; };
+		CF9AB84C1641427800F18048 /* expanddownarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expanddownarrow.png; sourceTree = "<group>"; };
+		CF9AB84D1641427800F18048 /* expanddownarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expanddownarrow@2x.png"; sourceTree = "<group>"; };
+		CF9AB84E1641427800F18048 /* expanduparrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expanduparrow.png; sourceTree = "<group>"; };
+		CF9AB84F1641427800F18048 /* expanduparrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expanduparrow@2x.png"; sourceTree = "<group>"; };
+		CF9AB859164198A000F18048 /* GWResourceGatherer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWResourceGatherer.h; sourceTree = "<group>"; };
+		CF9AB85A164198A000F18048 /* GWResourceGatherer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWResourceGatherer.m; sourceTree = "<group>"; };
+		CF9AB85C164199C200F18048 /* GWResourceStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWResourceStorage.h; sourceTree = "<group>"; };
+		CF9AB85D164199C200F18048 /* GWResourceStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWResourceStorage.m; sourceTree = "<group>"; };
+		CF9AB85F1641C86D00F18048 /* GWStructs3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWStructs3D.h; sourceTree = "<group>"; };
+		CF9AB862164201E400F18048 /* GWCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWCharacter.h; sourceTree = "<group>"; };
+		CF9AB863164201E500F18048 /* GWCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWCharacter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7AC79C163A8428004B25B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8AFCFA163DD83F0073D91A /* libz.dylib in Frameworks */,
+				CF8AFCF9163DD56F0073D91A /* libcocos2d.a in Frameworks */,
+				CF7ACCDC163AACD8004B25B9 /* AVFoundation.framework in Frameworks */,
+				CF7ACCDA163AACD2004B25B9 /* AudioToolbox.framework in Frameworks */,
+				CF7ACCD8163AACCC004B25B9 /* OpenAL.framework in Frameworks */,
+				CF7ACCD6163AACC5004B25B9 /* OpenGLES.framework in Frameworks */,
+				CF7ACCD4163AACBF004B25B9 /* QuartzCore.framework in Frameworks */,
+				CF7AC7A4163A8428004B25B9 /* UIKit.framework in Frameworks */,
+				CF7AC7A6163A8428004B25B9 /* Foundation.framework in Frameworks */,
+				CF7AC7A8163A8428004B25B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF352DB2163F843B00630592 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CF9AB85F1641C86D00F18048 /* GWStructs3D.h */,
+				CF38EA321640F84700CDDAA6 /* GWMapObject.h */,
+				CF352DB3163F879700630592 /* GWMap.h */,
+				CF352DB4163F879700630592 /* GWMap.m */,
+				CF38EA1B163FDBD000CDDAA6 /* GWBuilding.h */,
+				CF38EA1C163FDBD000CDDAA6 /* GWBuilding.m */,
+				CF9AB859164198A000F18048 /* GWResourceGatherer.h */,
+				CF9AB85A164198A000F18048 /* GWResourceGatherer.m */,
+				CF9AB85C164199C200F18048 /* GWResourceStorage.h */,
+				CF9AB85D164199C200F18048 /* GWResourceStorage.m */,
+				CF9AB862164201E400F18048 /* GWCharacter.h */,
+				CF9AB863164201E500F18048 /* GWCharacter.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CF38EA10163F888F00CDDAA6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF38EA33164100BC00CDDAA6 /* GWMapObjectController.h */,
+				CF38EA2E1640957300CDDAA6 /* GWMapSource.h */,
+				CF9AB8551641727900F18048 /* MapControllers */,
+				CF9AB8541641724B00F18048 /* BuildingControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CF38EA11163F88A500CDDAA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF38EA24163FF00800CDDAA6 /* GWMapLayer.h */,
+				CF38EA25163FF00800CDDAA6 /* GWMapLayer.m */,
+				CF38EA2716408A1900CDDAA6 /* GWBuildingSprite.h */,
+				CF38EA2816408A1900CDDAA6 /* GWBuildingSprite.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF7AC794163A8428004B25B9 = {
+			isa = PBXGroup;
+			children = (
+				CF7AC7A9163A8428004B25B9 /* GalaxyWar */,
+				CF7AC7C6163A8549004B25B9 /* Resources */,
+				CF7AC7F3163A9A3D004B25B9 /* libs */,
+				CF7AC7D9163A8D9E004B25B9 /* SupportingFiles */,
+				CF7AC7A2163A8428004B25B9 /* Frameworks */,
+				CF7AC7A0163A8428004B25B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7AC7A0163A8428004B25B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7AC79F163A8428004B25B9 /* GalaxyWar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7AC7A2163A8428004B25B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7ACCDF163AAF6F004B25B9 /* libz.dylib */,
+				CF7ACCDD163AACE4004B25B9 /* GameKit.framework */,
+				CF7ACCDB163AACD8004B25B9 /* AVFoundation.framework */,
+				CF7ACCD9163AACD2004B25B9 /* AudioToolbox.framework */,
+				CF7ACCD7163AACCC004B25B9 /* OpenAL.framework */,
+				CF7ACCD5163AACC5004B25B9 /* OpenGLES.framework */,
+				CF7ACCD3163AACBF004B25B9 /* QuartzCore.framework */,
+				CF7AC7A3163A8428004B25B9 /* UIKit.framework */,
+				CF7AC7A5163A8428004B25B9 /* Foundation.framework */,
+				CF7AC7A7163A8428004B25B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF7AC7A9163A8428004B25B9 /* GalaxyWar */ = {
+			isa = PBXGroup;
+			children = (
+				CF7AC7C9163A8D4F004B25B9 /* AppStartup */,
+				CF8AFB0B163DCB210073D91A /* GameMap */,
+			);
+			path = GalaxyWar;
+			sourceTree = "<group>";
+		};
+		CF7AC7C6163A8549004B25B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF8AFD18163DE06F0073D91A /* cocos2d Images */,
+				CF7AC7C7163A85FD004B25B9 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF7AC7C7163A85FD004B25B9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF9AB848164137C800F18048 /* metatiles.png */,
+				CF9AB849164137C800F18048 /* metatiles@2x.png */,
+				CF38EA2A1640943C00CDDAA6 /* Slaughterhouse.png */,
+				CF38EA2B1640943C00CDDAA6 /* Slaughterhouse@2x.png */,
+				CF9AB84C1641427800F18048 /* expanddownarrow.png */,
+				CF9AB84D1641427800F18048 /* expanddownarrow@2x.png */,
+				CF9AB84E1641427800F18048 /* expanduparrow.png */,
+				CF9AB84F1641427800F18048 /* expanduparrow@2x.png */,
+				CF7AC7C8163A8614004B25B9 /* Maps */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CF7AC7C8163A8614004B25B9 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				CF7AC7F4163A9ACB004B25B9 /* magic_bgr_left.png */,
+				CF38EA12163F894F00CDDAA6 /* magic_bgr_left@2x.png */,
+				CF7AC7F5163A9ACB004B25B9 /* magic_bgr_right.png */,
+				CF38EA13163F894F00CDDAA6 /* magic_bgr_right@2x.png */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		CF7AC7C9163A8D4F004B25B9 /* AppStartup */ = {
+			isa = PBXGroup;
+			children = (
+				CF7AC7E8163A8E31004B25B9 /* GWAppDelegate.h */,
+				CF7AC7E9163A8E31004B25B9 /* GWAppDelegate.m */,
+				CF7AC7F0163A9870004B25B9 /* GWRootViewController.h */,
+				CF7AC7F1163A9871004B25B9 /* GWRootViewController.m */,
+			);
+			path = AppStartup;
+			sourceTree = "<group>";
+		};
+		CF7AC7D9163A8D9E004B25B9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CF7AC8F0163AA11A004B25B9 /* Default-568h@2x.png */,
+				CF7AC8F1163AA11A004B25B9 /* Default.png */,
+				CF7AC8F2163AA11A004B25B9 /* Default@2x.png */,
+				CF7AC8F3163AA11A004B25B9 /* InfoPlist.strings */,
+				CF7AC8F5163AA11A004B25B9 /* GalaxyWar-Info.plist */,
+				CF7AC8F6163AA11A004B25B9 /* GalaxyWar-Prefix.pch */,
+				CF7AC8F7163AA11A004B25B9 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		CF7AC7F3163A9A3D004B25B9 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CF8AFCFB163DDA0E0073D91A /* CCKit */,
+				CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		CF8AFB0B163DCB210073D91A /* GameMap */ = {
+			isa = PBXGroup;
+			children = (
+				CF352DB2163F843B00630592 /* Models */,
+				CF38EA10163F888F00CDDAA6 /* Controllers */,
+				CF38EA11163F88A500CDDAA6 /* Views */,
+			);
+			path = GameMap;
+			sourceTree = "<group>";
+		};
+		CF8AFC06163DD5490073D91A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF8AFC7E163DD54E0073D91A /* libbuild all tests.a */,
+				CF8AFC80163DD54E0073D91A /* libbox2d.a */,
+				CF8AFC82163DD54E0073D91A /* libChipmunk.a */,
+				CF8AFC84163DD54E0073D91A /* libcocos2d.a */,
+				CF8AFC86163DD54E0073D91A /* libcocos2d-documentation.a */,
+				CF8AFC88163DD54E0073D91A /* libCocosDenshion.a */,
+				CF8AFC8A163DD54E0073D91A /* libCocosBuilderReader.a */,
+				CF8AFC8C163DD54E0073D91A /* libjsbindings.a */,
+				CF8AFC8E163DD54E0073D91A /* libkazmath.a */,
+				CF8AFC90163DD54E0073D91A /* liblibpng.a */,
+				CF8AFC92163DD54E0073D91A /* ActionManagerTest.app */,
+				CF8AFC94163DD54E0073D91A /* ActionsTest.app */,
+				CF8AFC96163DD54E0073D91A /* ActionsWithBlocksSample.app */,
+				CF8AFC98163DD54E0073D91A /* AttachTest.app */,
+				CF8AFC9A163DD54E0073D91A /* Box2dTest.app */,
+				CF8AFC9C163DD54E0073D91A /* Box2dTestBed.app */,
+				CF8AFC9E163DD54E0073D91A /* ChipmunkTest.app */,
+				CF8AFCA0163DD54E0073D91A /* ClickAndMoveTest.app */,
+				CF8AFCA2163DD54E0073D91A /* CocosDenshion - Tom The Turret.app */,
+				CF8AFCA4163DD54E0073D91A /* CocosDenshion - Drum Pad.app */,
+				CF8AFCA6163DD54E0073D91A /* CocosDenshion - Fade To Grey.app */,
+				CF8AFCA8163DD54E0073D91A /* CocosDenshion - FancyRat Metering Demo.app */,
+				CF8AFCAA163DD54E0073D91A /* DirectorTest.app */,
+				CF8AFCAC163DD54E0073D91A /* drawPrimitivesTest.app */,
+				CF8AFCAE163DD54E0073D91A /* EAGLViewTest.app */,
+				CF8AFCB0163DD54E0073D91A /* ActionsEaseTest.app */,
+				CF8AFCB2163DD54E0073D91A /* EffectsTest.app */,
+				CF8AFCB4163DD54E0073D91A /* EffectsAdvancedTest.app */,
+				CF8AFCB6163DD54E0073D91A /* FileUtilsTest.app */,
+				CF8AFCB8163DD54E0073D91A /* FontTest.app */,
+				CF8AFCBA163DD54E0073D91A /* IntervalTest.app */,
+				CF8AFCBC163DD54E0073D91A /* JS Moon Warriors.app */,
+				CF8AFCBE163DD54E0073D91A /* JS Tests.app */,
+				CF8AFCC0163DD54E0073D91A /* JS Watermelon.app */,
+				CF8AFCC2163DD54E0073D91A /* LabelTest.app */,
+				CF8AFCC4163DD54E0073D91A /* LayerTest.app */,
+				CF8AFCC6163DD54E0073D91A /* MenuTest.app */,
+				CF8AFCC8163DD54E0073D91A /* MotionStreakTest.app */,
+				CF8AFCCA163DD54E0073D91A /* MultithreadTest.app */,
+				CF8AFCCC163DD54E0073D91A /* cocosnodeTest.app */,
+				CF8AFCCE163DD54E0073D91A /* ParallaxTest.app */,
+				CF8AFCD0163DD54E0073D91A /* ParticleTest.app */,
+				CF8AFCD2163DD54E0073D91A /* ActionsProgressTest.app */,
+				CF8AFCD4163DD54E0073D91A /* RenderTextureTest.app */,
+				CF8AFCD6163DD54E0073D91A /* RotateWorldTest.app */,
+				CF8AFCD8163DD54E0073D91A /* SceneTest.app */,
+				CF8AFCDA163DD54E0073D91A /* SchedulerTest.app */,
+				CF8AFCDC163DD54E0073D91A /* ShaderTest.app */,
+				CF8AFCDE163DD54E0073D91A /* SpriteTest.app */,
+				CF8AFCE0163DD54E0073D91A /* Texture2dTest.app */,
+				CF8AFCE2163DD54E0073D91A /* TileMapTest.app */,
+				CF8AFCE4163DD54E0073D91A /* TouchesTest.app */,
+				CF8AFCE6163DD54E0073D91A /* TransitionsTest.app */,
+				CF8AFCE8163DD54E0073D91A /* ZwoptexTest.app */,
+				CF8AFCEA163DD54E0073D91A /* Bug350.app */,
+				CF8AFCEC163DD54E0073D91A /* Bug422.app */,
+				CF8AFCEE163DD54E0073D91A /* Bug458.app */,
+				CF8AFCF0163DD54E0073D91A /* Bug624.app */,
+				CF8AFCF2163DD54E0073D91A /* Bug886.app */,
+				CF8AFCF4163DD54E0073D91A /* Bug899.app */,
+				CF8AFCF6163DD54E0073D91A /* Bug914.app */,
+				CF8AFCF8163DD54E0073D91A /* Bug1159.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF8AFCFB163DDA0E0073D91A /* CCKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF8AFCFC163DDA0E0073D91A /* CCGestureRecognizer.h */,
+				CF8AFCFD163DDA0E0073D91A /* CCGestureRecognizer.m */,
+			);
+			path = CCKit;
+			sourceTree = "<group>";
+		};
+		CF8AFD18163DE06F0073D91A /* cocos2d Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF352DAF163F7CDB00630592 /* fps_images-ipadhd.png */,
+				CF8AFD0C163DE0650073D91A /* fps_images-hd.plist */,
+				CF8AFD0D163DE0660073D91A /* fps_images-hd.png */,
+				CF8AFD10163DE0670073D91A /* fps_images.plist */,
+				CF8AFD11163DE0680073D91A /* fps_images.png */,
+			);
+			name = "cocos2d Images";
+			sourceTree = "<group>";
+		};
+		CF9AB8541641724B00F18048 /* BuildingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF38EA21163FED4500CDDAA6 /* GWBuildingController.h */,
+				CF38EA22163FED4500CDDAA6 /* GWBuildingController.m */,
+			);
+			name = BuildingControllers;
+			sourceTree = "<group>";
+		};
+		CF9AB8551641727900F18048 /* MapControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF38EA1E163FE4CB00CDDAA6 /* GWMapController.h */,
+				CF38EA1F163FE4CB00CDDAA6 /* GWMapController.m */,
+				CF38EA34164103FF00CDDAA6 /* GWHomeMapController.h */,
+				CF38EA351641040000CDDAA6 /* GWHomeMapController.m */,
+				CF38EA2F1640AA1800CDDAA6 /* GWMoveBuildingController.h */,
+				CF38EA301640AA1800CDDAA6 /* GWMoveBuildingController.m */,
+			);
+			name = MapControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7AC79E163A8428004B25B9 /* GalaxyWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7AC7BD163A8428004B25B9 /* Build configuration list for PBXNativeTarget "GalaxyWar" */;
+			buildPhases = (
+				CF7AC79B163A8428004B25B9 /* Sources */,
+				CF7AC79C163A8428004B25B9 /* Frameworks */,
+				CF7AC79D163A8428004B25B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GalaxyWar;
+			productName = GalaxyWar;
+			productReference = CF7AC79F163A8428004B25B9 /* GalaxyWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7AC796163A8428004B25B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GW;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ashwin Kamath";
+			};
+			buildConfigurationList = CF7AC799163A8428004B25B9 /* Build configuration list for PBXProject "GalaxyWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF7AC794163A8428004B25B9;
+			productRefGroup = CF7AC7A0163A8428004B25B9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CF8AFC06163DD5490073D91A /* Products */;
+					ProjectRef = CF8AFC05163DD5490073D91A /* cocos2d-ios.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CF7AC79E163A8428004B25B9 /* GalaxyWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CF8AFC7E163DD54E0073D91A /* libbuild all tests.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libbuild all tests.a";
+			remoteRef = CF8AFC7D163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC80163DD54E0073D91A /* libbox2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbox2d.a;
+			remoteRef = CF8AFC7F163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC82163DD54E0073D91A /* libChipmunk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChipmunk.a;
+			remoteRef = CF8AFC81163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC84163DD54E0073D91A /* libcocos2d.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2d.a;
+			remoteRef = CF8AFC83163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC86163DD54E0073D91A /* libcocos2d-documentation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d-documentation.a";
+			remoteRef = CF8AFC85163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC88163DD54E0073D91A /* libCocosDenshion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocosDenshion.a;
+			remoteRef = CF8AFC87163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC8A163DD54E0073D91A /* libCocosBuilderReader.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCocosBuilderReader.a;
+			remoteRef = CF8AFC89163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC8C163DD54E0073D91A /* libjsbindings.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsbindings.a;
+			remoteRef = CF8AFC8B163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC8E163DD54E0073D91A /* libkazmath.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libkazmath.a;
+			remoteRef = CF8AFC8D163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC90163DD54E0073D91A /* liblibpng.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibpng.a;
+			remoteRef = CF8AFC8F163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC92163DD54E0073D91A /* ActionManagerTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ActionManagerTest.app;
+			remoteRef = CF8AFC91163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC94163DD54E0073D91A /* ActionsTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ActionsTest.app;
+			remoteRef = CF8AFC93163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC96163DD54E0073D91A /* ActionsWithBlocksSample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ActionsWithBlocksSample.app;
+			remoteRef = CF8AFC95163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC98163DD54E0073D91A /* AttachTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AttachTest.app;
+			remoteRef = CF8AFC97163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC9A163DD54E0073D91A /* Box2dTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Box2dTest.app;
+			remoteRef = CF8AFC99163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC9C163DD54E0073D91A /* Box2dTestBed.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Box2dTestBed.app;
+			remoteRef = CF8AFC9B163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFC9E163DD54E0073D91A /* ChipmunkTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ChipmunkTest.app;
+			remoteRef = CF8AFC9D163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCA0163DD54E0073D91A /* ClickAndMoveTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ClickAndMoveTest.app;
+			remoteRef = CF8AFC9F163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCA2163DD54E0073D91A /* CocosDenshion - Tom The Turret.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CocosDenshion - Tom The Turret.app";
+			remoteRef = CF8AFCA1163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCA4163DD54E0073D91A /* CocosDenshion - Drum Pad.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CocosDenshion - Drum Pad.app";
+			remoteRef = CF8AFCA3163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCA6163DD54E0073D91A /* CocosDenshion - Fade To Grey.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CocosDenshion - Fade To Grey.app";
+			remoteRef = CF8AFCA5163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCA8163DD54E0073D91A /* CocosDenshion - FancyRat Metering Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CocosDenshion - FancyRat Metering Demo.app";
+			remoteRef = CF8AFCA7163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCAA163DD54E0073D91A /* DirectorTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DirectorTest.app;
+			remoteRef = CF8AFCA9163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCAC163DD54E0073D91A /* drawPrimitivesTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = drawPrimitivesTest.app;
+			remoteRef = CF8AFCAB163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCAE163DD54E0073D91A /* EAGLViewTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EAGLViewTest.app;
+			remoteRef = CF8AFCAD163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCB0163DD54E0073D91A /* ActionsEaseTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ActionsEaseTest.app;
+			remoteRef = CF8AFCAF163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCB2163DD54E0073D91A /* EffectsTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EffectsTest.app;
+			remoteRef = CF8AFCB1163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCB4163DD54E0073D91A /* EffectsAdvancedTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = EffectsAdvancedTest.app;
+			remoteRef = CF8AFCB3163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCB6163DD54E0073D91A /* FileUtilsTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FileUtilsTest.app;
+			remoteRef = CF8AFCB5163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCB8163DD54E0073D91A /* FontTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = FontTest.app;
+			remoteRef = CF8AFCB7163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCBA163DD54E0073D91A /* IntervalTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = IntervalTest.app;
+			remoteRef = CF8AFCB9163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCBC163DD54E0073D91A /* JS Moon Warriors.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "JS Moon Warriors.app";
+			remoteRef = CF8AFCBB163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCBE163DD54E0073D91A /* JS Tests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "JS Tests.app";
+			remoteRef = CF8AFCBD163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCC0163DD54E0073D91A /* JS Watermelon.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "JS Watermelon.app";
+			remoteRef = CF8AFCBF163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCC2163DD54E0073D91A /* LabelTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LabelTest.app;
+			remoteRef = CF8AFCC1163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCC4163DD54E0073D91A /* LayerTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = LayerTest.app;
+			remoteRef = CF8AFCC3163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCC6163DD54E0073D91A /* MenuTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MenuTest.app;
+			remoteRef = CF8AFCC5163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCC8163DD54E0073D91A /* MotionStreakTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MotionStreakTest.app;
+			remoteRef = CF8AFCC7163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCCA163DD54E0073D91A /* MultithreadTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MultithreadTest.app;
+			remoteRef = CF8AFCC9163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCCC163DD54E0073D91A /* cocosnodeTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = cocosnodeTest.app;
+			remoteRef = CF8AFCCB163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCCE163DD54E0073D91A /* ParallaxTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ParallaxTest.app;
+			remoteRef = CF8AFCCD163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCD0163DD54E0073D91A /* ParticleTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ParticleTest.app;
+			remoteRef = CF8AFCCF163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCD2163DD54E0073D91A /* ActionsProgressTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ActionsProgressTest.app;
+			remoteRef = CF8AFCD1163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCD4163DD54E0073D91A /* RenderTextureTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RenderTextureTest.app;
+			remoteRef = CF8AFCD3163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCD6163DD54E0073D91A /* RotateWorldTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = RotateWorldTest.app;
+			remoteRef = CF8AFCD5163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCD8163DD54E0073D91A /* SceneTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SceneTest.app;
+			remoteRef = CF8AFCD7163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCDA163DD54E0073D91A /* SchedulerTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SchedulerTest.app;
+			remoteRef = CF8AFCD9163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCDC163DD54E0073D91A /* ShaderTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ShaderTest.app;
+			remoteRef = CF8AFCDB163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCDE163DD54E0073D91A /* SpriteTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SpriteTest.app;
+			remoteRef = CF8AFCDD163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCE0163DD54E0073D91A /* Texture2dTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Texture2dTest.app;
+			remoteRef = CF8AFCDF163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCE2163DD54E0073D91A /* TileMapTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TileMapTest.app;
+			remoteRef = CF8AFCE1163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCE4163DD54E0073D91A /* TouchesTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TouchesTest.app;
+			remoteRef = CF8AFCE3163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCE6163DD54E0073D91A /* TransitionsTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TransitionsTest.app;
+			remoteRef = CF8AFCE5163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCE8163DD54E0073D91A /* ZwoptexTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ZwoptexTest.app;
+			remoteRef = CF8AFCE7163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCEA163DD54E0073D91A /* Bug350.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug350.app;
+			remoteRef = CF8AFCE9163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCEC163DD54E0073D91A /* Bug422.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug422.app;
+			remoteRef = CF8AFCEB163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCEE163DD54E0073D91A /* Bug458.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug458.app;
+			remoteRef = CF8AFCED163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCF0163DD54E0073D91A /* Bug624.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug624.app;
+			remoteRef = CF8AFCEF163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCF2163DD54E0073D91A /* Bug886.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug886.app;
+			remoteRef = CF8AFCF1163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCF4163DD54E0073D91A /* Bug899.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug899.app;
+			remoteRef = CF8AFCF3163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCF6163DD54E0073D91A /* Bug914.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug914.app;
+			remoteRef = CF8AFCF5163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CF8AFCF8163DD54E0073D91A /* Bug1159.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Bug1159.app;
+			remoteRef = CF8AFCF7163DD54E0073D91A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7AC79D163A8428004B25B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8AFD12163DE0680073D91A /* fps_images-hd.plist in Resources */,
+				CF8AFD13163DE0680073D91A /* fps_images-hd.png in Resources */,
+				CF8AFD16163DE0680073D91A /* fps_images.plist in Resources */,
+				CF8AFD17163DE0680073D91A /* fps_images.png in Resources */,
+				CF7AC7F6163A9ACB004B25B9 /* magic_bgr_left.png in Resources */,
+				CF7AC7F7163A9ACB004B25B9 /* magic_bgr_right.png in Resources */,
+				CF7AC8F8163AA11A004B25B9 /* Default-568h@2x.png in Resources */,
+				CF7AC8F9163AA11A004B25B9 /* Default.png in Resources */,
+				CF7AC8FA163AA11A004B25B9 /* Default@2x.png in Resources */,
+				CF7AC8FB163AA11A004B25B9 /* InfoPlist.strings in Resources */,
+				CF352DB0163F7CDC00630592 /* fps_images-ipadhd.png in Resources */,
+				CF38EA14163F894F00CDDAA6 /* magic_bgr_left@2x.png in Resources */,
+				CF38EA15163F894F00CDDAA6 /* magic_bgr_right@2x.png in Resources */,
+				CF38EA2C1640943C00CDDAA6 /* Slaughterhouse.png in Resources */,
+				CF38EA2D1640943C00CDDAA6 /* Slaughterhouse@2x.png in Resources */,
+				CF9AB84A164137C800F18048 /* metatiles.png in Resources */,
+				CF9AB84B164137C800F18048 /* metatiles@2x.png in Resources */,
+				CF9AB8501641427800F18048 /* expanddownarrow.png in Resources */,
+				CF9AB8511641427800F18048 /* expanddownarrow@2x.png in Resources */,
+				CF9AB8521641427800F18048 /* expanduparrow.png in Resources */,
+				CF9AB8531641427800F18048 /* expanduparrow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7AC79B163A8428004B25B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7AC7EA163A8E31004B25B9 /* GWAppDelegate.m in Sources */,
+				CF7AC7F2163A9871004B25B9 /* GWRootViewController.m in Sources */,
+				CF7AC8FD163AA11A004B25B9 /* main.m in Sources */,
+				CF8AFD06163DDA0E0073D91A /* CCGestureRecognizer.m in Sources */,
+				CF352DB5163F879700630592 /* GWMap.m in Sources */,
+				CF38EA1D163FDBD000CDDAA6 /* GWBuilding.m in Sources */,
+				CF38EA20163FE4CB00CDDAA6 /* GWMapController.m in Sources */,
+				CF38EA23163FED4600CDDAA6 /* GWBuildingController.m in Sources */,
+				CF38EA26163FF00800CDDAA6 /* GWMapLayer.m in Sources */,
+				CF38EA2916408A1900CDDAA6 /* GWBuildingSprite.m in Sources */,
+				CF38EA311640AA1900CDDAA6 /* GWMoveBuildingController.m in Sources */,
+				CF38EA361641040100CDDAA6 /* GWHomeMapController.m in Sources */,
+				CF9AB85B164198A000F18048 /* GWResourceGatherer.m in Sources */,
+				CF9AB85E164199C300F18048 /* GWResourceStorage.m in Sources */,
+				CF9AB864164201E600F18048 /* GWCharacter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF7AC8F3163AA11A004B25B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7AC8F4163AA11A004B25B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7AC7BB163A8428004B25B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CF7AC7BC163A8428004B25B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7AC7BE163A8428004B25B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalaxyWar/GalaxyWar-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/GalaxyWar/GalaxyWar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "libs/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF7AC7BF163A8428004B25B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalaxyWar/GalaxyWar-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/GalaxyWar/GalaxyWar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "libs/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7AC799163A8428004B25B9 /* Build configuration list for PBXProject "GalaxyWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7AC7BB163A8428004B25B9 /* Debug */,
+				CF7AC7BC163A8428004B25B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7AC7BD163A8428004B25B9 /* Build configuration list for PBXNativeTarget "GalaxyWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7AC7BE163A8428004B25B9 /* Debug */,
+				CF7AC7BF163A8428004B25B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7AC796163A8428004B25B9 /* Project object */;
+}
